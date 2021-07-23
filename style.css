@@ -1,0 +1,747 @@
+html{
+    scroll-behavior: smooth;
+}
+
+/* font-family: 'Oswald', sans-serif;    background: #f5f5f5 */
+
+#headerTop{
+    background:  #f5f5f5!important;
+}
+
+
+
+i.fa.fa-phone {
+    color: #ff5200;
+}
+
+i.fa.fa-envelope {
+    color: #ff5200;
+}
+
+.faceBook {
+    color: white;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    background: black;
+    padding: 2px;
+    padding-right: 4px;
+    padding-left: 3px;
+    padding-top: 3px;
+    font-size: 9px;
+    transition: 0.3s;
+    /* margin-bottom: 20px; */
+}
+.faceBook:hover{
+    background: #ff5200;
+}
+
+.twottter {
+    color: white;
+    background: black;
+    border-radius: 100%;
+    padding: 2px;
+    padding-right: 3px;
+    padding-top: 2px;
+    padding-left: 3px;
+    padding-bottom: 2px;
+    font-size: 9px;
+    transition: 0.3s;
+    /* margin-bottom: 20px; */
+}
+.twottter:hover{
+    background: #ff5200;
+}
+
+.linKedin {
+    color: white;
+    background: black;
+    border-radius: 100%;
+    padding: 3px;
+    padding-right: 4px;
+    padding-left: 4px;
+    padding-bottom: 4px;
+    padding-top: 2px;
+    font-size: 9px;
+    transition: 0.3s;
+    text-align: center;
+    padding-bottom: 3px;
+    /* margin-bottom: 20px; */
+}
+
+.linKedin:hover{
+    background: #ff5200;
+}
+
+
+
+/* slide section */
+
+.carousel-item{
+	height: 450px;
+}
+
+.carosule-img-1{
+    background: url(images/headerback.jpg);
+    background-size: cover;
+    background-position: center;
+   
+}
+.carosule-img-2{
+    background: url(images/slide-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* card section start here */
+
+#cardSec{
+    background-color: #f5f6f6;
+}
+i.fa.fa-shopping-cart {
+    font-size: 45px;
+    color:  #ff5200;
+}
+
+.arch{
+    cursor: pointer;
+}
+
+.para1{
+    font-size: 18px;
+    font-weight: 400;
+}
+.arrowIcon{
+    color: #ff5200;
+}
+
+.arrowIcon:hover{
+    text-decoration: none;
+    
+}
+.card-body{
+    transition: 0.4s;
+}
+.card-body:hover {
+    background: #ff5200;
+    color: white;
+}
+.card-body:hover .arrowIcon{
+    
+    color: white;
+}
+.card-body:hover i{
+    
+    color: white;
+}
+.fstCard{
+    border: none !important;
+}
+.cardTwo{
+    background: #ff5200;
+    color: white;
+}
+.twoIcon{
+    color: white;
+}
+.twoIcon:hover{
+    color: white;
+    text-decoration: none;
+}
+.twoshop{
+    color: white !important;
+}
+.card.rounded.cardTwo {
+    padding-bottom: 9px;
+}
+
+
+/* our teac section start here */
+
+.building{
+    transition: 0.3s;
+}
+
+.building:hover{
+    color: #ff5200;
+    cursor: pointer;
+}
+.getbtn{
+    background: #ff5200;
+    color: white;
+}
+.getbtn:hover{
+  background: black;
+  color: white !important;
+}
+
+
+/* count section start here */
+
+
+#count{
+    background: url(images/why-choose-us1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 320px;
+    position: relative;
+}
+
+.countlay{
+    position: absolute;
+    background: rgba( 0,0,0,0.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+}
+i.fa.fa-chrome {
+    font-size: 40px;
+}
+i.fa.fa-eercast{
+    font-size: 40px;
+}
+i.fa.fa-compass{
+    font-size: 40px;
+}
+i.fa.fa-codiepie{
+    font-size: 40px;
+}
+
+/* more from us section start here */
+
+hr{
+    background: #ff5200;
+    width: 50px;
+    height: 2px;
+}
+
+#moreUs{
+    background:  #f5f6f6;
+}
+.card-body2{
+    background:  #f5f6f6;
+}
+
+
+/* pricing plan section start here */
+
+
+#pricingPlan{
+    background:  #f5f6f6;
+}
+
+.plan{
+    font-size: 50px;
+}
+
+i.fa.fa-check{
+    color: #ff5200;
+}
+.prie{
+    border: 1px solid rgb(197, 212, 197) !important;
+}
+
+/* idea section start here */
+
+#ideaSec{
+    background:  #f5f6f6;
+}
+
+.hand{
+    font-size: 50px;
+    color: #ff5200;
+}
+
+.ideacolor{
+    background: #212529;
+}
+.great h5 a {
+    color: white;
+    text-decoration: none;
+}
+.great p{
+    color: #f5f6f6;
+    font-size: 15px;
+}
+.fulldiv h5 a{
+    transition: 0.3s;
+}
+.fulldiv:hover h5 a{
+    color: #ff5200 !important;
+}
+
+.infocol{
+    height: 100% !important;
+}
+
+.hoverImage{
+    position: relative;
+}
+
+.hoverIcon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
+    background: rgba(31, 53, 72, 0.6);
+    opacity: 0;
+    transition: 0.7s;
+}
+.hoverIcon:hover{
+    opacity: 1;
+}
+
+.hoverIcon:hover .socialIconHover{
+    transform: translateY(50px);
+}
+.socialIconHover{
+    transform: translateY(100px);
+    transition: 0.4s;
+}
+
+
+
+.book {
+    background:  #007bff;
+    border-radius: 100%;
+    padding: 4px;
+    text-align: center;
+    padding: 5px 8px;
+    transition: 0.4s;
+    color: white;
+   
+}
+
+.book:hover{
+    color: black;
+    background: whitesmoke;
+}
+
+
+.twit{
+    background: #0ec8f5;
+    border-radius: 100%;
+    padding: 4px;
+    text-align: center;
+    padding: 5px 6px;
+    transition: 0.4s;
+    color: white;
+}
+
+.twit:hover{
+    color: black;
+    background: whitesmoke;
+}
+
+.google{
+    background:#28a745;
+    border-radius: 100%;
+    padding: 4px;
+    text-align: center;
+    padding: 6px 4px;
+    transition: 0.4s;
+    color: white;
+}
+
+.google:hover{
+    color: black;
+    background: whitesmoke;
+}
+.linkk{
+    background: #0094d3;
+    border-radius: 100%;
+    padding: 4px;
+    text-align: center;
+    padding: 5px 6px;
+    transition: 0.4s;
+    color: white;
+}
+
+.linkk:hover{
+    color: black;
+    background: whitesmoke;
+}
+
+
+
+
+/* product section start here*/
+
+#productSec{
+    background:  #f5f6f6;
+}
+
+.singleProject {
+    position: relative;
+}
+
+.projecttINfo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to top, black, transparent 140px);
+    width: 100%;
+    color: white;
+    padding-bottom: 0px !important;
+    transition: 0.4s;
+}
+
+
+.projecttINfo a{
+    color: white;
+
+}
+.projecttINfo a:first-child{
+    text-decoration: underline;
+}
+.projecttINfo a:first-child:hover{
+    text-decoration: underline;
+}
+.projecttINfo a:hover{
+    text-decoration: none;
+}
+
+a#learnMore2 {
+    display: block;
+    transform: translateX(-123px);
+    color: #f5f6f6;
+    visibility: hidden;
+    
+}
+
+.singleProject:hover .projecttINfo{
+    padding-bottom: 40px!important;
+    width: 100%;
+    background: linear-gradient(to top, black, transparent 160px);
+}
+
+.singleProject:hover a#learnMore2{
+    transform: translateX(0px);
+    visibility: visible;
+    transition: 0.3s;
+    transition-delay: 0.3s;
+    transition-timing-function: cubic-bezier(0, 0.1, 0, 1.22);
+
+ 
+    
+}
+
+
+
+
+
+
+
+/* momment section start here */
+
+.hr2{
+    height: 1px;
+    width: 18px;
+    background: #ff5200;
+    margin-left: 6px;
+    
+}
+.card-body4 a {
+    padding-right: 91px !important;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+.card-body4 a:hover{
+    color: #ff5200;
+}
+
+.card-body3 a h5 {
+    color: black;
+    transition: 0.3s;
+}
+.card-body3 a h5:hover{
+    color: #ff5200;
+}
+.card-body3 a{
+    text-decoration: none;
+}
+.aroright{
+    color: #ff5200;
+}
+.aroright:hover{
+    color: #ff5200;
+}
+.newsImage{
+    
+    overflow: hidden;
+}
+.newsImage img{
+    transition: 0.4s;
+}
+
+.card6IMage:hover .newsImage img{
+    transform: scale(1.1);
+}
+
+
+
+/* contact section start here */
+
+
+.contactBox{
+    position: relative;
+}
+
+
+.contactInfo1{
+    background: #ff5200 !important;
+   
+   
+    /* position:absolute; */
+    top: 70%;
+    left:7%;
+    right:7%;
+    bottom:-15%;
+    display:flex;
+    flex-direction:column;
+    align-self:center;
+    justify-content:center;
+    border-radius: 3px;
+}
+
+.conFac{
+    border-radius: 100%;
+    border: 1px solid white;
+    padding: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.conFac:hover{
+    background: white;
+    color: #ff5200;
+}
+.conTwi{
+    border-radius: 100%;
+    border: 1px solid white;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.conTwi:hover{
+    background: white;
+    color: #ff5200;
+}
+
+.conLin{
+    border-radius: 100%;
+    border: 1px solid white;
+    padding: 10px;
+    padding-left: 11px;
+    padding-right: 11px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.conLin:hover{
+    background: white;
+    color: #ff5200;
+}
+
+.conIns{
+    border-radius: 100%;
+    border: 1px solid white;
+    padding: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.conIns:hover{
+    background: white;
+    color: #ff5200;
+}
+
+.conBeh{
+    border-radius: 100%;
+    border: 1px solid white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.conBeh:hover{
+    background: white;
+    color: #ff5200;
+}
+
+
+/* last section start here */
+
+.contactInfo2{
+    background: #212529;
+    
+}
+.lastRow{
+    padding: 150px  0px;
+}
+.hrlst{
+    color: white !important;
+}
+.post{
+    background: #656565;
+    padding: 0px -40px 20px 0;
+    border-radius: 6px;
+}
+
+.ptext{
+    color: #999;
+}
+
+.lastSocialIcon a i{
+    color: #999 !important;
+    transition: 0.4s;
+}
+.lastSocialIcon a i:hover{
+    color: #ff5200 !important;
+}
+.lastHome{
+    color: #ff5200;
+    font-size: 19px;
+}
+.lastsocikon a {
+    color: #999 !important;
+    text-decoration: none;
+    transition: 0.3s;
+    padding-top:  !important; 
+}
+
+.lastsocikon a:hover{
+    color: #ff5200 !important;
+}
+.admin h6{
+    transition: 0.4s;
+}
+.admin h6:hover{
+    color: #ff5200;
+}
+
+.contactBox{
+    margin-top: 80px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width: 768px){
+
+	.line{
+		width: 30px;
+		height: 3px;
+		background: white;
+		margin: 5px;
+	}
+	nav{
+		position: relative;
+	}
+	.hamburger{
+		position: absolute;
+		cursor: pointer;
+		right: 5%;
+		top: 50%;
+		transform: translate(-5%,-50%);
+		z-index: 2;
+	}
+
+
+	.nav-links{
+		position: fixed;
+		background-color: #5b78c7;
+		height: 100vh;
+		width: 100%;
+		flex-direction: column;
+		clip-path: circle(100px at 90% -20%);
+		-webkit-clip-path: circle(100px at 90% -20%);
+		transition: all 0.7s ease-out;
+		pointer-events: none;
+	}
+	.nav-links.open{
+		clip-path: circle(700px at 90% -20%);
+		-webkit-clip-path: circle(700px at 90% -20%);
+		pointer-events: all;
+	}
+	.landing{
+		flex-direction: column;
+	}
+} */
+
+
+
+
+
+/* media query start here */
+
+
+
+
+
+
+@media(max-width: 992px){
+    #headerTop{
+        display: none;
+    }
+
+
+}
+
+@media(max-width: 693px){
+    .Best{
+        font-size: 40px;
+    }
+}
+@media(max-width: 383px){
+    .besst{
+        font-size: 30px;
+    }
+}
+@media(max-width: 590px){
+  .besst{
+      font-size: 35px;
+  }
+}
+@media(max-width: 360px){
+  .besst{
+      font-size: 30px;
+  }
+}
+@media(max-width: 1200px){
+    .cardLast{
+        padding-bottom: 9px !important;
+    }
+}
+
+@media(max-width: 992px){
+    #count{
+       
+        height: 100vh;
+       
+    }
+
+   
+}
+
+
+
